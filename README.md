@@ -1,6 +1,5 @@
 # НТО ИИ 2025-2026: Бейзлайн для индивидуального этапа
-
-
+очень много играл с параметрами
 ## Описание
 
 Модель предсказывает оценку (`rating`) от 0 до 10, которую пользователь поставит книге.
@@ -171,5 +170,6 @@ Score = 1 - (0.5 * RMSE/10 + 0.5 * MAE/10)
 - pandas, scikit-learn, lightgbm, joblib
 - transformers, torch, sentencepiece
 - ruff, pre-commit (dev)
+
 
 
